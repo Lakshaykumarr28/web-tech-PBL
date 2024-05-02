@@ -1,0 +1,44 @@
+body {
+    background-color: lightgray;
+    color: white;
+  }
+  
+  #game-board {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border: 3px solid gray;
+  }
+  
+  #score-board {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    gap: 2rem;
+  }
+
+  #score{
+    color: purple
+  }
+
+  #high-score{
+    color:red;
+  }
+  
+  .snake {
+    background-color: cyan;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+  }
+  
+  .snake.head {
+    background-color: blue;
+  }
+  
+  .food {
+    background-color: orange;
+    position: absolute;
+    height: 20px;
+    width: 20px;
+  }
